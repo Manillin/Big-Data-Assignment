@@ -52,8 +52,7 @@ Seguire i passaggi seguenti per configurare l'ambiente di progetto.
 
 Clonare il repository sulla propria macchina locale.
 ```bash
-git clone <URL_DEL_REPOSITORY>
-cd <NOME_DELLA_CARTELLA_DEL_REPOSITORY>
+git clone https://github.com/Manillin/Big-Data-Assignment
 ```
 
 ### 2. Installazione e Configurazione di Apache Spark
@@ -99,6 +98,9 @@ pipenv install
     pipenv run python prepare_data.py
     ```
     Questo comando genera un nuovo file, `bitcoin_data_sorted.csv`, che sarà utilizzato dal simulatore.
+
+_nota:_ I file .CSV non sono stati inclusi nel repository in quanto superavano le dimensioni consentite di 100MB per file.  
+Scaricare i dati localmente se si vuole testare il progetto sulla propria macchina seguendo le indicazioni precedenti.  
 
 ---
 
