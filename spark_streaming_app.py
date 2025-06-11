@@ -9,7 +9,7 @@ def process_bitcoin_stream():
     # Creazione della SparkSession
     # La SparkSession è il punto di ingresso per programmare Spark con l'API DataFrame
     # 'local[2]' esegue Spark localmente con 2 core
-    # uno per ricevere i dati e uno per elaborarli
+    # Uno per ricevere i dati e uno per elaborarli
     spark = SparkSession \
         .builder \
         .appName("RealTimeBitcoinAnalysis") \
