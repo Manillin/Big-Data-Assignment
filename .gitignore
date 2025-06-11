@@ -1,0 +1,20 @@
+    # File di dati
+    *.csv
+
+    # Directory generate dall'applicazione Spark
+    streaming_data/
+    results_data/
+    results_alerts/
+    checkpoints_data/
+    checkpoints_alerts/
+
+    # File di ambiente Python e cache
+    .venv/
+    __pycache__/
+    *.pyc
+    *.pyo
+
+    # File specifici di IDE e sistema operativo
+    .idea/
+    .vscode/
+    .DS_Store
